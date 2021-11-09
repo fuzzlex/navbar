@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+}
+.navbar ul{
+    display: flex; 
+}
+ul li{
+    margin: 1rem;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(212, 98, 16);
+}
