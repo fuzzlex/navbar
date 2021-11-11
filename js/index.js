@@ -5,5 +5,4 @@ const navMenu = document.querySelector(".nav-menu")
 menuBtn.addEventListener("click", ()=>{
   menuBtn.classList.toggle("change");
   navMenu.classList.toggle("change");
-
 })

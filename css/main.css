@@ -72,7 +72,7 @@
 .nav-menu {
   background-color: rgba(221, 113, 113, 0.5);
   position: relative;
-  left: -225%;
+  left: -100%;
   top: 0;
 }
 .nav-menu li {
@@ -85,7 +85,7 @@
 
 .change {
   left: 0;
-  transition: left 0.8s;
+  transition: left 1.5s;
 }
 
 @media screen and (max-width: 850px) {

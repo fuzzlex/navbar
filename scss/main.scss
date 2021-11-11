@@ -39,11 +39,7 @@
 .menu{
     display: none;
     flex-direction: column;
-    cursor: pointer;  
-
-
-
-}
+    cursor: pointer; }
 .change{
     flex-direction: row;
     justify-content: space-between;
@@ -74,7 +70,7 @@ margin: 0 -0.5rem;
 .nav-menu{
     background-color: rgba(221, 113, 113,0.5);
     position: relative;
-    left:-225%;
+    left: -100%;
     top :0;
     li{
         border-bottom: 1px solid rgb(0, 0, 0);    
@@ -85,8 +81,8 @@ margin: 0 -0.5rem;
         }        
     }
 .change {
-        left:0;
-        transition: left 0.8s;
+        left: 0;
+        transition: left 1.5s;
     }
 @media screen and (max-width:850px) {
 .navbar, .social{
