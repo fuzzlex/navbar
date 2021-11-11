@@ -10,11 +10,11 @@
     margin: 2%;
   
 }
-.navbar{
+.navbar  {
     ul{
         display: flex; 
     }
-    li{
+    ul li{
         margin: 1rem;
         list-style-type: none;
     }
@@ -30,8 +30,11 @@
     li{
         color: red;
         font-size: 1.5rem;
+        margin: 1rem;
+        list-style-type: none;
     }
 }
+
 
 .menu{
     display: none;
